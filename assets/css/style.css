@@ -19,6 +19,7 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+  color: #5f687b;
 }
 
 /*--------------------------------------------------------------
@@ -298,7 +299,7 @@ h6 {
 
 .mobile-nav .active.drop-down > a:after {
   /* content: "\eaa1"; */
-  background-image: url('/assets/img/icones/family.svg');
+  background-image: url("/assets/img/icones/family.svg");
 }
 
 .mobile-nav .drop-down > a {
@@ -338,7 +339,6 @@ h6 {
 
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
-
 }
 
 /*--------------------------------------------------------------
@@ -567,6 +567,8 @@ section {
   color: #eb002b;
 }
 
+
+
 .featured-services .description {
   line-height: 24px;
   font-size: 14px;
@@ -655,9 +657,10 @@ section {
 .services .icon-box {
   text-align: center;
   border: 3px solid #fff;
-  padding: 80px 20px;
+  padding: 45px 40px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  border-radius: 6px;
 }
 
 .services .icon-box .icon {
@@ -665,16 +668,26 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 29px;
   transition: ease-in-out 0.3s;
 }
 
+.services .icon-box .meets {
+  color: #5f687b;
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+
 .services .icon-box .social {
+  /* height: 44px; */
 }
 
 .services .icon-box .social a {
   color: #919191;
   transition: 0.3s;
+}
+.services .icon-box .social a img {
+  width: 29px;
 }
 
 .services .icon-box .social a:hover {
@@ -683,12 +696,12 @@ section {
 
 .services .icon-box .icon i {
   color: #eb002b;
-  font-size: 36px;
+  font-size: 48px;
   transition: 0.3s;
 }
 
 .services .icon-box h4 {
-  font-weight: 700;
+  font-weight: 300;
   margin-bottom: 15px;
   font-size: 24px;
 }
