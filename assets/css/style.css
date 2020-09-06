@@ -366,7 +366,7 @@ h6 {
 }
 
 #hero .btn-get-started {
-  display: flex;
+  display: flex !important;
   align-items: center;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -424,7 +424,7 @@ h6 {
     text-align: center;
   }
   #hero .hero-img img {
-    width: 50%;
+    width: 90%;
   }
 }
 
@@ -439,13 +439,13 @@ h6 {
     margin-bottom: 30px;
   }
   #hero .hero-img img {
-    width: 70%;
+    width: 90%;
   }
 }
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 100%;
+    width: 90%;
   }
 }
 
