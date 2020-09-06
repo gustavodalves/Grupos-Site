@@ -1,14 +1,14 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  font-weight: 100;
 }
 
 a {
-  color: #EB002B;
+  color: #eb002b;
 }
 
 a:hover {
-  color: #;
   text-decoration: none;
 }
 
@@ -41,13 +41,13 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #EB002B;
+  background: #eb002b;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #EB002B;
+  background: #eb002b;
   color: #fff;
 }
 
@@ -121,7 +121,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
-  color: #EB002B;
+  color: #eb002b;
 }
 
 .nav-menu .drop-down ul {
@@ -218,9 +218,9 @@ h6 {
 }
 
 .get-started-btn:hover {
-  background: #EB002B;
+  background: #eb002b;
   color: #fff;
-  border-color: #EB002B;
+  border-color: #eb002b;
 }
 
 @media (max-width: 768px) {
@@ -284,7 +284,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #EB002B;
+  color: #eb002b;
   text-decoration: none;
 }
 
@@ -373,7 +373,7 @@ h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #EB002B;
+  background: #eb002b;
   box-shadow: 0 8px 28px rgba(139, 0, 0, 0.5);
 }
 
@@ -401,7 +401,7 @@ h6 {
 }
 
 #hero .btn-watch-video:hover i {
-  color: #EB002B;
+  color: #eb002b;
 }
 
 #hero .animated {
@@ -542,7 +542,7 @@ section {
 }
 
 .featured-services .icon i {
-  color: #EB002B;
+  color: #eb002b;
   font-size: 36px;
 }
 
@@ -562,7 +562,7 @@ section {
 }
 
 .featured-services .icon-box:hover .title a {
-  color: #EB002B;
+  color: #eb002b;
 }
 
 .featured-services .description {
@@ -577,12 +577,17 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about .content {
+  display: flex;
+  align-items: center;
+}
+
 .about .content h3 {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   color: #5f687b;
 }
-
+  
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -595,7 +600,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #EB002B;
+  color: #eb002b;
 }
 
 .about .content p:last-child {
@@ -606,11 +611,20 @@ section {
   align-items: center;
   width: 320px;
 }
-
+@media screen and (max-width: 480px) {
+  .about .img-fluid {
+       width: 60vw;
+  }
+}
 .about .center-image {
   display: flex;
   justify-content: center;
 }
+
+/* .center-content {
+  display: flex;
+  align-items: center;
+} */
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -621,7 +635,7 @@ section {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #EB002B;
+  color: #eb002b;
   font-weight: 700;
 }
 
@@ -662,11 +676,11 @@ section {
 }
 
 .services .icon-box .social a:hover {
-  color: #EB002B;
+  color: #eb002b;
 }
 
 .services .icon-box .icon i {
-  color: #EB002B;
+  color: #eb002b;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -693,7 +707,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #EB002B;
+  color: #eb002b;
 }
 
 .services .icon-box h5 a {
@@ -760,7 +774,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #EB002B;
+  color: #eb002b;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -848,7 +862,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #EB002B !important;
+  background-color: #eb002b !important;
 }
 
 @media (max-width: 767px) {
