@@ -730,6 +730,12 @@ section {
   margin-bottom: 10px;
 }
 
+.services .section-title h4 {
+  font-weight: 300;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
