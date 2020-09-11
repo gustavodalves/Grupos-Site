@@ -847,6 +847,7 @@ section {
   display: inline-block;
   left: -5px;
   position: relative;
+  
 }
 
 .testimonials .testimonial-item .quote-icon-right {
@@ -926,23 +927,6 @@ section {
   color: #aaaaaa;
 }
 
-.team .member .social {
-  margin-top: 15px;
-}
-
-.team .member .social a {
-  color: #919191;
-  transition: 0.3s;
-}
-
-.team .member .social a:hover {
-  color: #16df7e;
-}
-
-.team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
 
 /*--------------------------------------------------------------
 # Breadcrumbs
